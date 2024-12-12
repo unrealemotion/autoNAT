@@ -38,7 +38,7 @@ set-vmfirmware -VMName "<VMName>" -FirstBootDevice $D
 #        -NewVHDPath "C:\VMs\MyVM.vhdx" `
 #        -NewVHDSizeBytes 50GB `
 #        -SwitchName "NATSwitch"
-# Add-VMDvdDrive -VMName "MyVM" -Path "D:\MOE5SVR-v5.12.21H2.iso"
+# Add-VMDvdDrive -VMName "MyVM" -Path "D:\asher.iso"
 # $D=get-vmdvddrive -vmname "MyVM"
 # set-vmfirmware -VMName "MyVM" -FirstBootDevice $D
 
